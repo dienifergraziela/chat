@@ -1,0 +1,1655 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: cursive;
+}
+
+#nickAzul {
+    background-color: #3F51B5;
+    width: 563px;
+    height: 778px;
+    flex-shrink: 0;
+    border-radius: 30px 0 0 30px;
+}
+
+#nick {
+    width: 1440px;
+    height: 780px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    margin-top: 28px;
+    margin-left: 130px;
+}
+
+#nick img {
+    width: 289px;
+    height: 292px;
+    flex-shrink: 0;
+    margin-left: 137px;
+    margin-top: 220px;
+}
+
+#nickBranco div img {
+    width: 30vw;
+    height: 20vh;
+    margin-left: 10.5vw;
+    margin-top: 135px;
+}
+
+#bem-vindo p {
+    color: #3F51B5;
+    text-align: center;
+    font-size: 40px;
+    line-height: normal;
+    margin-left: 16vw;
+    width: 20vw;
+}
+
+#nick-nome p {
+    color: #FF4081;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 18vw;
+    width: 15vw;
+}
+
+#nick-nome input {
+    margin-left: 15vw;
+    width: 362px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 3px solid #3F51B5;
+    background: #E0E0E0;
+    text-align: center;
+}
+
+#nick-nome button {
+    width: 170px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #FF4081;
+    margin-top: 2vh;
+    margin-left: 35vw;
+    border: none;
+    color: #ffff;
+}
+
+/**/
+#chats {
+    width: 876px;
+    background-color: #3F51B5;
+    height: 778px;
+    border-radius: 10px;
+    margin-left: 4px;
+}
+
+
+#chats img {
+    width: 531px;
+    height: 484px;
+    flex-shrink: 0;
+    margin-top: 10vh;
+    margin-left: 11vw;
+}
+
+#chats p {
+    text-align: center;
+    color: #FFF;
+    color: #FFF;
+    width: 22vw;
+    margin-left: 14vw;
+}
+
+#salas {
+    width: 1440px;
+    height: 780px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-top: 28px;
+    margin-left: 130px;
+}
+
+#sala {
+    margin-right: 0;
+    width: 558px;
+    background-color: #3F51B5;
+    height: 778px;
+    border-radius: 10px;
+}
+
+#menu {
+    background-color: #000;
+    height: 86px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+#menu p {
+    margin-left: 3vw;
+    display: inline;
+}
+
+#menu img {
+    float: right;
+    margin-top: 3vh;
+}
+
+#pesquisar {
+    background-color: rgb(217, 217, 217, 0.5);
+    height: 53px;
+}
+
+#pesquisar input {
+    border-radius: 10px;
+    width: 514px;
+    height: 43px;
+    flex-shrink: 0;
+    background-color: #000;
+    color: #D9D9D9;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 22px;
+    border: none;
+}
+
+#conversa {
+    background-color: rgb(217, 217, 217, 0.5);
+    height: 98px;
+    margin-bottom: 4px;
+}
+
+#conversa:hover {
+    background-color: #6D82F7;
+}
+
+#conversa img {
+    display: inline;
+    margin-top: 1.6vh;
+    margin-left: 1.3vw;
+    position: fixed;
+}
+
+#conversa p {
+    float: left;
+}
+
+#novaSala input {
+    width: 458px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #E0E0E0;
+    border: none;
+    text-align: center;
+}
+
+#voltar h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.e101_22 {
+    background-color: #000;
+    width: 1440px;
+    height: 780px;
+}
+
+.e101_26 {
+    background-color: rgba(63.000000044703484, 81.00000277161598, 181.0000044107437, 1);
+    width: 1440px;
+    height: 780px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 105px; 
+    margin-top: 25px;
+}
+
+.e107_82 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 150px;
+    top: 471px;
+}
+
+.i107_82_107_65 {
+    border: 1.5px solid rgba(255, 64.00000378489494, 129.00000751018524, 1);
+}
+
+.ei107_82_107_65 {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+.e107_66 {
+    color: rgba(255, 255, 255, 1);
+    width: 203px;
+    height: 50px;
+    position: absolute;
+    left: 190px;
+    top: 462px;
+    font-family: Gaegu;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 0;
+}
+
+.e106_50 {
+    background-color: rgba(224.000001847744, 224.000001847744, 224.000001847744, 1);
+    width: 458px;
+    height: 75px;
+    position: absolute;
+    left: 129px;
+    top: 377px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.e107_57 {
+    color: rgba(0, 0, 0, 0.33000001311302185);
+    width: 193px;
+    height: 44px;
+    position: absolute;
+    left: 166px;
+    top: 392px;
+    font-family: Gaegu;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 0;
+}
+
+.e107_53 {
+    background-color: rgba(255, 64.00000378489494, 129.00000751018524, 1);
+    width: 265px;
+    height: 75px;
+    position: absolute;
+    left: 236px;
+    top: 601px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.e107_52 {
+    color: rgba(255, 255, 255, 1);
+    width: 79px;
+    height: 50px;
+    position: absolute;
+    left: 329px;
+    top: 614px;
+    font-family: Gaegu;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
+.e107_54 {
+    background-color: rgba(255, 64.00000378489494, 129.00000751018524, 1);
+    width: 265px;
+    height: 75px;
+    position: absolute;
+    left: 939px;
+    top: 601px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.e107_56 {
+    color: rgba(255, 255, 255, 1);
+    width: 81px;
+    height: 50px;
+    position: absolute;
+    left: 1031px;
+    top: 614px;
+    font-family: Gaegu;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
+.e107_55 {
+    color: rgba(255, 255, 255, 1);
+    width: 241px;
+    height: 94px;
+    position: absolute;
+    left: 599px;
+    top: 122px;
+    font-family: Hi Melody;
+    text-align: center;
+    font-size: 65px;
+    letter-spacing: 0;
+}
+
+.e112_34 {
+    color: rgba(255, 255, 255, 1);
+    width: 292px;
+    height: 126px;
+    position: absolute;
+    left: 926px;
+    top: 429px;
+    font-family: Hi Melody;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 0;
+}
+
+.e112_23 {
+    transform: rotate(-90deg);
+    width: 240px;
+    height: 0px;
+    position: absolute;
+    left: 720px;
+    top: 936px;
+}
+
+.e112_24 {
+    transform: rotate(-90deg);
+    width: 240px;
+    height: 0px;
+    position: absolute;
+    left: 720px;
+    top: 544px;
+}
+
+.e112_28 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 655px;
+    top: 555px;
+}
+
+.e112_29 {
+    width: 108.33332061767578px;
+    height: 108.33332061767578px;
+    position: absolute;
+    left: 10.833333015441895px;
+    top: 10.833333015441895px;
+}
+
+.e112_32 {
+    color: rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+    position: relative;
+    left: 46px;
+    font-family: KoHo;
+    text-align: left;
+    font-size: 35px;
+    letter-spacing: 0;
+}
+
+.e114_133 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 44px;
+}
+
+.e114_134 {
+    width: 41.66666793823242px;
+    height: 41.66666793823242px;
+    position: absolute;
+    left: 4.166666507720947px;
+    top: 4.166666507720947px;
+}
+
+.e114_135 {
+    width: 7.333334445953369px;
+    height: 14.708332061767578px;
+    position: absolute;
+    left: 20.29166603088379px;
+    top: 17.64583396911621px;
+}
+
+
+.e112_36 {
+    background-color: rgba(255, 255, 255, 1);
+    width: 1440px;
+    height: 1024px;
+    position: absolute;
+}
+
+.e112_37 {
+    background-color: rgba(63.000000044703484, 81.00000277161598, 181.0000044107437, 1);
+    width: 1402px;
+    height: 1000px;
+    position: absolute;
+    left: 19px;
+    top: 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.e112_66 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 141px;
+    top: 592px;
+}
+
+.i112_66_107_72 {
+    border: 1.5px solid rgba(255, 64.00000378489494, 129.00000751018524, 1);
+}
+
+.ei112_66_107_72 {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+.ei112_66_107_74 {
+    color: rgba(0, 0, 0, 1);
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: -2px;
+    top: -3px;
+    font-family: Gaegu;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 0;
+}
+
+.ei112_66_107_80 {
+    background-color: rgba(224.000001847744, 224.000001847744, 224.000001847744, 1);
+    width: 458px;
+    height: 75px;
+    position: absolute;
+    left: -213px;
+    top: 42px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.ei112_66_107_81 {
+    color: rgba(0, 0, 0, 0.33000001311302185);
+    width: 218px;
+    height: 44px;
+    position: absolute;
+    left: -144px;
+    top: 95px;
+    font-family: Gaegu;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 0;
+}
+
+.e112_39 {
+    color: rgba(255, 255, 255, 1);
+    width: 203px;
+    height: 50px;
+    position: absolute;
+    left: 181px;
+    top: 583px;
+    font-family: Gaegu;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 0;
+}
+
+.e112_40 {
+    background-color: rgba(224.000001847744, 224.000001847744, 224.000001847744, 1);
+    width: 458px;
+    height: 75px;
+    position: absolute;
+    left: 129px;
+    top: 377px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.e112_73 {
+    background-color: rgba(224.000001847744, 224.000001847744, 224.000001847744, 1);
+    width: 458px;
+    height: 75px;
+    position: absolute;
+    left: 129px;
+    top: 480px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.e112_74 {
+    color: rgba(0, 0, 0, 0.33000001311302185);
+    width: 200px;
+    height: 44px;
+    position: absolute;
+    left: 162px;
+    top: 495px;
+    font-family: Gaegu;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 0;
+}
+
+.e112_41 {
+    color: rgba(0, 0, 0, 0.33000001311302185);
+    width: 193px;
+    height: 44px;
+    position: absolute;
+    left: 166px;
+    top: 392px;
+    font-family: Gaegu;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 0;
+}
+
+.e112_42 {
+    background-color: rgba(255, 64.00000378489494, 129.00000751018524, 1);
+    width: 265px;
+    height: 75px;
+    position: absolute;
+    left: 386px;
+    top: 672px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.e112_43 {
+    color: rgba(255, 255, 255, 1);
+    width: 79px;
+    height: 50px;
+    position: absolute;
+    left: 479px;
+    top: 685px;
+    font-family: Gaegu;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 0;
+}
+
+.e112_44 {
+    background-color: rgba(255, 64.00000378489494, 129.00000751018524, 1);
+    width: 265px;
+    height: 75px;
+    position: absolute;
+    left: 939px;
+    top: 601px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.e112_45 {
+    color: rgba(255, 255, 255, 1);
+    width: 81px;
+    height: 50px;
+    position: absolute;
+    left: 1031px;
+    top: 614px;
+    font-family: Gaegu;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 0;
+}
+
+.e112_46 {
+    color: rgba(255, 255, 255, 1);
+    width: 241px;
+    height: 94px;
+    position: absolute;
+    left: 599px;
+    top: 122px;
+    font-family: Hi Melody;
+    text-align: center;
+    font-size: 75px;
+    letter-spacing: 0;
+}
+
+.e112_47 {
+    color: rgba(255, 255, 255, 1);
+    width: 292px;
+    height: 126px;
+    position: absolute;
+    left: 926px;
+    top: 429px;
+    font-family: Hi Melody;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 0;
+}
+
+.e112_48 {
+    transform: rotate(-90deg);
+    width: 240px;
+    height: 0px;
+    position: absolute;
+    left: 720px;
+    top: 936px;
+}
+
+.e112_49 {
+    transform: rotate(-90deg);
+    width: 240px;
+    height: 0px;
+    position: absolute;
+    left: 720px;
+    top: 544px;
+}
+
+.e112_50 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 655px;
+    top: 555px;
+}
+
+.e112_51 {
+    width: 108.33332061767578px;
+    height: 108.33332061767578px;
+    position: absolute;
+    left: 10.833333015441895px;
+    top: 10.833333015441895px;
+}
+
+.e112_52 {
+    color: rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+    width: 38px;
+    height: 46px;
+    position: absolute;
+    left: 46px;
+    top: 38px;
+    font-family: KoHo;
+    text-align: left;
+    font-size: 35px;
+    letter-spacing: 0;
+}
+
+.e114_138 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 44px;
+}
+
+.e114_139 {
+    width: 41.66666793823242px;
+    height: 41.66666793823242px;
+    position: absolute;
+    left: 4.166666507720947px;
+    top: 4.166666507720947px;
+}
+
+.e114_140 {
+    width: 7.333334445953369px;
+    height: 14.708332061767578px;
+    position: absolute;
+    left: 20.29166603088379px;
+    top: 17.64583396911621px;
+}
+
+.mensagens,
+.mensagens * {
+  box-sizing: border-box;
+}
+.mensagens {
+  background: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1 {
+  background: #3f51b5;
+  width: 531px;
+  height: 1000px;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+}
+.rectangle-4 {
+  position: absolute;
+  left: 551px;
+  top: 12px;
+  overflow: visible;
+}
+.rectangle-21 {
+  background: #6d82f7;
+  width: 531px;
+  height: 139px;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+}
+.rectangle-22 {
+  background: rgba(0, 0, 0, 0.76);
+  width: 871px;
+  height: 86px;
+  position: absolute;
+  left: 551px;
+  top: 12px;
+}
+.rectangle-57 {
+  background: rgba(0, 0, 0, 0.76);
+  border-radius: 100px;
+  width: 871px;
+  height: 62px;
+  position: absolute;
+  left: 551px;
+  top: 950px;
+}
+.digite-uma-mensagem {
+  color: #ffffff;
+  text-align: left;
+  font: 700 20px "Gaegu", sans-serif;
+  position: absolute;
+  left: 640px;
+  top: 968px;
+}
+.rectangle-7 {
+  width: 531px;
+  height: 100px;
+  position: absolute;
+  left: 16px;
+  top: 151px;
+}
+.rectangle-6 {
+  opacity: 0.30000001192092896;
+  width: 531px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-5 {
+  background: #d9d9d9;
+  width: 531px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-8 {
+  width: 531px;
+  height: 100px;
+  position: absolute;
+  left: 16px;
+  top: 255px;
+}
+.rectangle-9 {
+  width: 531px;
+  height: 100px;
+  position: absolute;
+  left: 16px;
+  top: 463px;
+}
+.rectangle-11 {
+  width: 531px;
+  height: 100px;
+  position: absolute;
+  left: 16px;
+  top: 567px;
+}
+.rectangle-12 {
+  width: 531px;
+  height: 100px;
+  position: absolute;
+  left: 16px;
+  top: 671px;
+}
+.rectangle-13 {
+  width: 531px;
+  height: 100px;
+  position: absolute;
+  left: 16px;
+  top: 775px;
+}
+.rectangle-14 {
+  width: 531px;
+  height: 100px;
+  position: absolute;
+  left: 20px;
+  top: 879px;
+}
+.rectangle-10 {
+  width: 531px;
+  height: 100px;
+  position: absolute;
+  left: 16px;
+  top: 359px;
+}
+.ellipse-9 {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 46px;
+  top: 166px;
+}
+.family {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 176px;
+  width: 113px;
+}
+._7-pessoas {
+  color: #000000;
+  text-align: center;
+  font: 400 23px "Gaegu", sans-serif;
+  position: absolute;
+  left: 132px;
+  top: 198px;
+}
+._17-50 {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: absolute;
+  left: 486px;
+  top: 177px;
+}
+.ellipse-10 {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 46px;
+  top: 166px;
+}
+.ellipse-13 {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 46px;
+  top: 478px;
+}
+.ellipse-12 {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 46px;
+  top: 374px;
+}
+.ellipse-11 {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 46px;
+  top: 270px;
+}
+.family2 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 280px;
+  width: 113px;
+}
+._7-pessoas2 {
+  color: #000000;
+  text-align: center;
+  font: 400 23px "Gaegu", sans-serif;
+  position: absolute;
+  left: 132px;
+  top: 302px;
+}
+._17-502 {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: absolute;
+  left: 486px;
+  top: 281px;
+}
+.family3 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 384px;
+  width: 113px;
+}
+._7-pessoas3 {
+  color: #000000;
+  text-align: center;
+  font: 400 23px "Gaegu", sans-serif;
+  position: absolute;
+  left: 132px;
+  top: 406px;
+}
+._17-503 {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: absolute;
+  left: 486px;
+  top: 385px;
+}
+.ellipse-16 {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 46px;
+  top: 790px;
+}
+.family4 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 488px;
+  width: 113px;
+}
+.ellipse-15 {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 46px;
+  top: 686px;
+}
+._7-pessoas4 {
+  color: #000000;
+  text-align: center;
+  font: 400 23px "Gaegu", sans-serif;
+  position: absolute;
+  left: 132px;
+  top: 510px;
+}
+.ellipse-14 {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 46px;
+  top: 582px;
+}
+._17-504 {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: absolute;
+  left: 486px;
+  top: 489px;
+}
+.family5 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 592px;
+  width: 113px;
+}
+._7-pessoas5 {
+  color: #000000;
+  text-align: center;
+  font: 400 23px "Gaegu", sans-serif;
+  position: absolute;
+  left: 132px;
+  top: 614px;
+}
+._17-505 {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: absolute;
+  left: 486px;
+  top: 593px;
+}
+.family6 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 696px;
+  width: 113px;
+}
+._7-pessoas6 {
+  color: #000000;
+  text-align: center;
+  font: 400 23px "Gaegu", sans-serif;
+  position: absolute;
+  left: 132px;
+  top: 718px;
+}
+._17-506 {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: absolute;
+  left: 486px;
+  top: 697px;
+}
+.family7 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 800px;
+  width: 113px;
+}
+._7-pessoas7 {
+  color: #000000;
+  text-align: center;
+  font: 400 23px "Gaegu", sans-serif;
+  position: absolute;
+  left: 132px;
+  top: 822px;
+}
+._17-507 {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: absolute;
+  left: 486px;
+  top: 801px;
+}
+._7-pessoas8 {
+  color: #000000;
+  text-align: center;
+  font: 400 23px "Gaegu", sans-serif;
+  position: absolute;
+  left: 132px;
+  top: 926px;
+}
+.ellipse-17 {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 46px;
+  top: 894px;
+}
+.family8 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 904px;
+  width: 113px;
+}
+._17-508 {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: absolute;
+  left: 486px;
+  top: 905px;
+}
+.iconsax-linear-add {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 493px;
+  top: 58px;
+  overflow: hidden;
+}
+.text {
+  color: #ffffff;
+  text-align: center;
+  font: 400 35px "Gamja Flower", sans-serif;
+  position: absolute;
+  left: 1022px;
+  top: 673px;
+  width: 0px;
+  height: 77px;
+}
+.rectangle-39 {
+  background: #3f51b5;
+  width: 531px;
+  height: 52px;
+  position: absolute;
+  left: 16px;
+  top: 99px;
+}
+.ellipse-18 {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 565px;
+  top: 21px;
+}
+.iconsax-linear-link-21 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1329px;
+  top: 43px;
+  overflow: hidden;
+}
+.vector {
+  position: absolute;
+  left: 3.25px;
+  top: 10.94px;
+  overflow: visible;
+}
+.vector2 {
+  position: absolute;
+  left: 8.84px;
+  top: 3.16px;
+  overflow: visible;
+}
+.x {
+  color: #ffffff;
+  text-align: center;
+  font: 700 50px "Gaegu", sans-serif;
+  position: absolute;
+  left: 1363px;
+  top: 19px;
+}
+.rectangle-40 {
+  width: 531px;
+  height: 52px;
+  position: absolute;
+  left: 16px;
+  top: 99px;
+}
+.rectangle-62 {
+  opacity: 0.30000001192092896;
+  width: 531px;
+  height: 52px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-52 {
+  background: #d9d9d9;
+  width: 531px;
+  height: 52px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.iconsax-linear-send-2 {
+  position: absolute;
+  left: 1347px;
+  top: 969px;
+  overflow: visible;
+}
+.iconsax-linear-happyemoji {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 594px;
+  top: 969px;
+  overflow: hidden;
+}
+.vector4 {
+  position: absolute;
+  left: 1.97px;
+  top: 2px;
+  overflow: visible;
+}
+.vector5 {
+  position: absolute;
+  left: 7.21px;
+  top: 16px;
+  overflow: visible;
+}
+
+.rectangle-33 {
+  background: rgba(0, 0, 0, 0.76);
+  width: 531px;
+  height: 86px;
+  position: absolute;
+  left: 16px;
+  top: 13px;
+}
+.chats {
+  color: #ffffff;
+  text-align: center;
+  font: 400 35px "Gamja Flower", sans-serif;
+  position: absolute;
+  left: 53px;
+  top: 26px;
+}
+.icon-plus {
+  position: absolute;
+  left: 462px;
+  top: 32px;
+  overflow: visible;
+}
+.rectangle-35 {
+  border-radius: 0px;
+  position: absolute;
+  left: 25px;
+  top: 105px;
+  overflow: visible;
+}
+.pesquisar {
+  color: #d9d9d9;
+  text-align: center;
+  font: 400 22px "Gamja Flower", sans-serif;
+  position: absolute;
+  left: 66px;
+  top: 110px;
+}
+.family9 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 30px "Gaegu", sans-serif;
+  position: absolute;
+  left: 631px;
+  top: 29px;
+  width: 113px;
+}
+.rectangle-31 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 243px;
+  height: 77px;
+  position: absolute;
+  left: 688px;
+  top: 162px;
+}
+.ellipse-19 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 588px;
+  top: 162px;
+}
+.rectangle-32 {
+  position: absolute;
+  left: 660px;
+  top: 165px;
+  overflow: visible;
+}
+.sla-nada-msm {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 701px;
+  top: 187px;
+}
+._17-509 {
+  color: #000000;
+  text-align: center;
+  font: 700 19px "Gaegu", sans-serif;
+  position: absolute;
+  left: 876px;
+  top: 209px;
+}
+.fulano {
+  color: #43a122;
+  text-align: center;
+  font: 700 21px "Gaegu", sans-serif;
+  position: absolute;
+  left: 698px;
+  top: 167px;
+}
+.icon-home-2 {
+  position: absolute;
+  inset: 0;
+}
+.group {
+  position: absolute;
+  left: 500px;
+  top: 37px;
+  overflow: visible;
+}
+.rectangle-142 {
+  width: 531px;
+  height: 100px;
+  position: absolute;
+  left: 16px;
+  top: 983px;
+}
+.rectangle-53 {
+  background: rgba(217, 217, 217, 0.7);
+  width: 531px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.icon-lock {
+  position: absolute;
+  left: 494px;
+  top: 407px;
+  overflow: visible;
+}
+.icon-lock2 {
+  position: absolute;
+  left: 494px;
+  top: 613px;
+  overflow: visible;
+}
+.rectangle-41 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 243px;
+  height: 77px;
+  position: absolute;
+  left: 691px;
+  top: 267px;
+}
+.ellipse-20 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 591px;
+  top: 267px;
+}
+.rectangle-42 {
+  position: absolute;
+  left: 663px;
+  top: 270px;
+  overflow: visible;
+}
+.sla-nada-msm2 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 704px;
+  top: 292px;
+}
+._17-5010 {
+  color: #000000;
+  text-align: center;
+  font: 700 19px "Gaegu", sans-serif;
+  position: absolute;
+  left: 879px;
+  top: 314px;
+}
+.ciclano {
+  color: #bc7100;
+  text-align: center;
+  font: 700 21px "Gaegu", sans-serif;
+  position: absolute;
+  left: 698px;
+  top: 272px;
+}
+.rectangle-44 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 243px;
+  height: 77px;
+  position: absolute;
+  left: 691px;
+  top: 477px;
+}
+.ellipse-21 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 591px;
+  top: 477px;
+}
+.rectangle-45 {
+  position: absolute;
+  left: 663px;
+  top: 480px;
+  overflow: visible;
+}
+.sla-nada-msm3 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 704px;
+  top: 502px;
+}
+._17-5011 {
+  color: #000000;
+  text-align: center;
+  font: 700 19px "Gaegu", sans-serif;
+  position: absolute;
+  left: 879px;
+  top: 524px;
+}
+.criatura {
+  color: #d8308b;
+  text-align: center;
+  font: 700 21px "Gaegu", sans-serif;
+  position: absolute;
+  left: 701px;
+  top: 482px;
+}
+.rectangle-47 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 243px;
+  height: 77px;
+  position: absolute;
+  left: 691px;
+  top: 792px;
+}
+.ellipse-22 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 591px;
+  top: 792px;
+}
+.rectangle-48 {
+  position: absolute;
+  left: 663px;
+  top: 795px;
+  overflow: visible;
+}
+.sla-nada-msm4 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 704px;
+  top: 817px;
+}
+._17-5012 {
+  color: #000000;
+  text-align: center;
+  font: 700 19px "Gaegu", sans-serif;
+  position: absolute;
+  left: 879px;
+  top: 839px;
+}
+.humano {
+  color: #c41eff;
+  text-align: center;
+  font: 700 21px "Gaegu", sans-serif;
+  position: absolute;
+  left: 701px;
+  top: 797px;
+}
+.rectangle-522 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 243px;
+  height: 77px;
+  position: absolute;
+  left: 1039px;
+  top: 372px;
+}
+.ellipse-23 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 1322px;
+  top: 372px;
+}
+.rectangle-51 {
+  position: absolute;
+  left: 1310px;
+  top: 375px;
+  transform: translate(-43px, 0px);
+  overflow: visible;
+}
+.sla-nada-msm5 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 1052px;
+  top: 397px;
+}
+._17-5013 {
+  color: #000000;
+  text-align: center;
+  font: 700 19px "Gaegu", sans-serif;
+  position: absolute;
+  left: 1227px;
+  top: 419px;
+}
+.you {
+  color: #1cb0c5;
+  text-align: center;
+  font: 700 21px "Gaegu", sans-serif;
+  position: absolute;
+  left: 1060px;
+  top: 377px;
+}
+.rectangle-532 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 243px;
+  height: 77px;
+  position: absolute;
+  left: 1039px;
+  top: 582px;
+}
+.ellipse-24 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 1322px;
+  top: 582px;
+}
+.rectangle-54 {
+  position: absolute;
+  left: 1310px;
+  top: 585px;
+  transform: translate(-43px, 0px);
+  overflow: visible;
+}
+.sla-nada-msm6 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 1052px;
+  top: 607px;
+}
+._17-5014 {
+  color: #000000;
+  text-align: center;
+  font: 700 19px "Gaegu", sans-serif;
+  position: absolute;
+  left: 1227px;
+  top: 629px;
+}
+.you2 {
+  color: #1cb0c5;
+  text-align: center;
+  font: 700 21px "Gaegu", sans-serif;
+  position: absolute;
+  left: 1060px;
+  top: 587px;
+}
+.rectangle-55 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 243px;
+  height: 77px;
+  position: absolute;
+  left: 1039px;
+  top: 687px;
+}
+.ellipse-25 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 1322px;
+  top: 687px;
+}
+.rectangle-56 {
+  position: absolute;
+  left: 1310px;
+  top: 690px;
+  transform: translate(-43px, 0px);
+  overflow: visible;
+}
+.sla-nada-msm7 {
+  color: #000000;
+  text-align: center;
+  font: 700 25px "Gaegu", sans-serif;
+  position: absolute;
+  left: 1052px;
+  top: 712px;
+}
+._17-5015 {
+  color: #000000;
+  text-align: center;
+  font: 700 19px "Gaegu", sans-serif;
+  position: absolute;
+  left: 1227px;
+  top: 734px;
+}
+.you3 {
+  color: #1cb0c5;
+  text-align: center;
+  font: 700 21px "Gaegu", sans-serif;
+  position: absolute;
+  left: 1060px;
+  top: 692px;
+}
+
+.e107_57{
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+}
+
