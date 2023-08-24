@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "../../assets/css/App.css";
-import ellipse from"../../assets/images/ellipse-25.png";
-import Perfil from "../../assets/images/perfil.jpg";
-
+import ellipse from "../../assets/images/ellipse-25.png";
 const Conversa = () => {
   return (
     <div>
-      
+
       <div class="mensagens">
         <div class="rectangle-1"></div>
         <svg class="rectangle-4" width="871" height="1000" viewBox="0 0 871 1000" fill="none"
@@ -59,55 +57,59 @@ const Conversa = () => {
             <div class="rectangle-5"></div>
           </div>
         </div>
-        <img class="ellipse-9" src="ellipse-9.png" />
-        <div class="family">family</div>
+        <img src={ellipse} class="ellipse-9" />
+        <div class="family">chat</div>
         <div class="_7-pessoas">7 pessoas</div>
         <div class="_17-50">17:50</div>
-        <img class="ellipse-10" src="ellipse-10.png" /><img class="ellipse-13" src="ellipse-13.png" /><img
-          class="ellipse-12" src="ellipse-12.png" /><img class="ellipse-11" src="ellipse-11.png" />
-        <div class="family2">family</div>
+        <img src={ellipse} class="ellipse-10" /><img src={ellipse} class="ellipse-13" /><img src={ellipse} class="ellipse-12" /><img src={ellipse} class="ellipse-11" />
+        <div class="family2">chat</div>
         <div class="_7-pessoas2">7 pessoas</div>
         <div class="_17-502">17:50</div>
-        <div class="family3">family</div>
+        <div class="family3">chat</div>
         <div class="_7-pessoas3">7 pessoas</div>
         <div class="_17-503">17:50</div>
-        <img class="ellipse-16" src="ellipse-16.png" />
-        <div class="family4">family</div>
-        <img class="ellipse-15" src="ellipse-15.png" />
+        <img src={ellipse} class="ellipse-16" />
+        <div class="family4">chat</div>
+        <img src={ellipse} class="ellipse-15" />
         <div class="_7-pessoas4">7 pessoas<br /></div>
-        <img class="ellipse-14" src="ellipse-14.png" />
+        <img src={ellipse} class="ellipse-14" />
         <div class="_17-504">17:50</div>
-        <div class="family5">family</div>
+        <div class="family5">chat</div>
         <div class="_7-pessoas5">7 pessoas</div>
         <div class="_17-505">17:50</div>
-        <div class="family6">family</div>
+        <div class="family6">chat</div>
         <div class="_7-pessoas6">7 pessoas</div>
         <div class="_17-506">17:50</div>
-        <div class="family7">family</div>
+        <div class="family7">chat</div>
         <div class="_7-pessoas7">7 pessoas</div>
         <div class="_17-507">17:50</div>
         <div class="_7-pessoas8">7 pessoas</div>
         <img class="ellipse-17" src="ellipse-17.png" />
-        <div class="family8">family</div>
+        <div class="family8">chat</div>
         <div class="_17-508">17:50</div>
         <div class="iconsax-linear-add"></div>
         <div class="text">
           <br />
         </div>
         <div class="rectangle-39"></div>
-        <img class="ellipse-18" src="ellipse-18.png" />
+        <img src={ellipse} class="ellipse-18" />
         <div class="iconsax-linear-link-21">
-          <svg class="vector" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M10.0601 0.940002C10.595 1.47324 11.0193 2.10679 11.3089 2.80434C11.5985 3.5019 11.7475 4.24974 11.7475 5.005C11.7475 5.76027 11.5985 6.50811 11.3089 7.20566C11.0193 7.90322 10.595 8.53677 10.0601 9.07C7.81009 11.31 4.17009 11.32 1.93009 9.07C-0.30991 6.82 -0.31991 3.18 1.93009 0.940002"
-              stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
+          <Link to="/criarsala">
+            <svg class="vector" width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.0601 0.940002C10.595 1.47324 11.0193 2.10679 11.3089 2.80434C11.5985 3.5019 11.7475 4.24974 11.7475 5.005C11.7475 5.76027 11.5985 6.50811 11.3089 7.20566C11.0193 7.90322 10.595 8.53677 10.0601 9.07C7.81009 11.31 4.17009 11.32 1.93009 9.07C-0.30991 6.82 -0.31991 3.18 1.93009 0.940002"
+                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </Link>
 
-          <svg class="vector2" width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <Link to="/criarSala">
+            <svg class="vector2" width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M2.58996 10.41C0.249961 8.07001 0.249961 4.27001 2.58996 1.92001C4.92996 -0.429993 8.72996 -0.419993 11.08 1.92001C13.43 4.26001 13.42 8.06001 11.08 10.41"
               stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
+          </Link>
+          
         </div>
         <div class="x">x</div>
         <div class="rectangle-40">
@@ -153,9 +155,9 @@ const Conversa = () => {
         </svg>
 
         <div class="pesquisar">pesquisar...</div>
-        <div class="family9">family</div>
+        <div class="family9">chat</div>
         <div class="rectangle-31"></div>
-        <img class="ellipse-19" src="ellipse-19.png" />
+        <img src={ellipse} class="ellipse-19" />
         <svg class="rectangle-32" width="43" height="16" viewBox="0 0 43 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 12.3636L43 0V16H26.4615L0 12.3636Z" fill="#D9D9D9" />
         </svg>
@@ -191,7 +193,8 @@ const Conversa = () => {
         </svg>
 
         <div class="rectangle-41"></div>
-        <img class="ellipse-20" src="ellipse-20.png" />
+        <img src={ellipse} class="ellipse-20" />
+
         <svg class="rectangle-42" width="43" height="16" viewBox="0 0 43 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 12.3636L43 0V16H26.4615L0 12.3636Z" fill="#D9D9D9" />
         </svg>
@@ -200,7 +203,7 @@ const Conversa = () => {
         <div class="_17-5010">17:50</div>
         <div class="ciclano">ciclano</div>
         <div class="rectangle-44"></div>
-        <img class="ellipse-21" src="ellipse-21.png" />
+        <img src={ellipse} class="ellipse-21" />
         <svg class="rectangle-45" width="43" height="16" viewBox="0 0 43 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 12.3636L43 0V16H26.4615L0 12.3636Z" fill="#D9D9D9" />
         </svg>
@@ -209,7 +212,8 @@ const Conversa = () => {
         <div class="_17-5011">17:50</div>
         <div class="criatura">criatura</div>
         <div class="rectangle-47"></div>
-        <img class="ellipse-22" src="ellipse-22.png" />
+        <img src={ellipse} class="ellipse-22" />
+
         <svg class="rectangle-48" width="43" height="16" viewBox="0 0 43 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 12.3636L43 0V16H26.4615L0 12.3636Z" fill="#D9D9D9" />
         </svg>
@@ -218,7 +222,8 @@ const Conversa = () => {
         <div class="_17-5012">17:50</div>
         <div class="humano">humano</div>
         <div class="rectangle-522"></div>
-        <img class="ellipse-23" src="ellipse-23.png" />
+        <img src={ellipse} class="ellipse-23" />
+
         <svg class="rectangle-51" width="43" height="16" viewBox="0 0 43 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M43 12.3636L0 0L0 16L16.5385 16L43 12.3636Z" fill="#D9D9D9" />
         </svg>
@@ -227,7 +232,8 @@ const Conversa = () => {
         <div class="_17-5013">17:50</div>
         <div class="you">you</div>
         <div class="rectangle-532"></div>
-        <img class="ellipse-24" src="ellipse-24.png" />
+
+        <img src={ellipse} class="ellipse-24" />
         <svg class="rectangle-54" width="43" height="16" viewBox="0 0 43 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M43 12.3636L0 0L0 16L16.5385 16L43 12.3636Z" fill="#D9D9D9" />
         </svg>
@@ -236,7 +242,8 @@ const Conversa = () => {
         <div class="_17-5014">17:50</div>
         <div class="you2">you</div>
         <div class="rectangle-55"></div>
-        <img class="ellipse-25" src="ellipse-25.png" />
+        <img src={ellipse} class="ellipse-25" />
+
         <svg class="rectangle-56" width="43" height="16" viewBox="0 0 43 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M43 12.3636L0 0L0 16L16.5385 16L43 12.3636Z" fill="#D9D9D9" />
         </svg>
@@ -244,6 +251,7 @@ const Conversa = () => {
         <div class="sla-nada-msm7">sla nada msm</div>
         <div class="_17-5015">17:50</div>
         <div class="you3">you</div>
+
       </div>
     </div>
   );

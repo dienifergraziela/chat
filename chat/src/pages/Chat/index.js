@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Messaging from "../../assets/images/Messaging-bro.png";
+import ellipse from "../../assets/images/ellipse-25.png";
 
 const Chat = () => {
     return (
@@ -21,50 +22,44 @@ const Chat = () => {
                         </div>
                         <Link to="/conversa">
                             <div class="col-md-12" id="conversa">
-                                <img src={Perfil} />
-                                <p>family </p>
-                                <p>ciclano: sla</p>
-                                <p>7:59</p>
+                                <img src={ellipse} class="ellipse-8" />
+                                <p>chat </p>
+
                             </div>
                         </Link>
                         <Link to="/conversa">
                             <div class="col-md-12" id="conversa">
-                                <img src="./imagens/Ellipse 18.png" alt="" />
-                                <p>family </p>
-                                <p>ciclano: sla</p>
-                                <p>7:59</p>
+                                <img src={ellipse} class="ellipse-7" />
+                                <p>chat </p>
+
                             </div>
                         </Link>
                         <Link to="/conversa">
                             <div class="col-md-12" id="conversa">
-                                <img src="./imagens/Ellipse 18.png" alt="" />
-                                <p>family </p>
-                                <p>ciclano: sla</p>
-                                <p>7:59</p>
+                                <img src={ellipse} class="ellipse-6" />
+                                <p>chat </p>
+
                             </div>
                         </Link>
                         <Link to="/conversa">
                             <div class="col-md-12" id="conversa">
-                                <img src="./imagens/Ellipse 18.png" alt="" />
-                                <p>family </p>
-                                <p>ciclano: sla</p>
-                                <p>7:59</p>
+                                <img src={ellipse} class="ellipse-5" />
+                                <p>chat </p>
+
                             </div>
                         </Link>
                         <Link to="/conversa">
                             <div class="col-md-12" id="conversa">
-                                <img src="./imagens/Ellipse 18.png" alt="" />
+                                <img src={ellipse} class="ellipse-4" />
                                 <p>family </p>
-                                <p>ciclano: sla</p>
-                                <p>7:59</p>
+
                             </div>
                         </Link>
                         <Link to="/conversa">
                             <div class="col-md-12" id="conversa">
-                                <img src="./imagens/Ellipse 18.png" alt="" />
+                                <img src={ellipse} class="ellipse-3" />
                                 <p>family </p>
-                                <p>ciclano: sla</p>
-                                <p>7:59</p>
+
                             </div>
                         </Link>
 
